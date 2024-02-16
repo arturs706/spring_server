@@ -1,0 +1,13 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    url: jdbc:postgresql://90.247.64.249:5432/msone
+    username: arturs
+    password: arturs
+    driver-class-name: org.postgresql.Driver
+  data:
+    jpa:
+      repositories:
+        base-package: com.apigw.repositories
